@@ -22,10 +22,7 @@
         }
     }
 }
-body.stuck {
-    overflow-y: hidden;
-    // margin-right: 10px ;
-}
+
 // .btn-search {
 //     z-index: 99;
 // }
@@ -88,41 +85,4 @@ body.stuck {
      color: $white;
     }
 }
-// .social-buttons {
-//     a {
-//         display: inline-block;
-//         // height: 74px;
-//         // width: 220px;
-//         width: 100%;
-//         border-radius: 3px;
-//         color: white;
-//         // padding: 25px 0;
-//         text-align: center;
-//         text-decoration: none;
-//         transition: 0.3s;
-//         &:hover {
-//             transform: scaleY(1, 1.1);
-//         }
-//     }
-//     .fb-btn {
-//         background-color: $Fblue;
-//     }
-//     .twt-btn {
-//         background-color: $Tblue;
-//     }
-// }
-div ::-webkit-scrollbar {
-    width: 3px;
-}
 
-/* Track */
-div ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px $outColor;
-    border-radius: 10px;
-}
-
-/* Handle */
-div ::-webkit-scrollbar-thumb {
-    background: $ActiveBlue;
-    border-radius: 5px;
-}

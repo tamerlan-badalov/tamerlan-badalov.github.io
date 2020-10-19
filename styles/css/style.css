@@ -16352,10 +16352,6 @@ p {
   color: #ffff;
 }
 
-body.stuck {
-  overflow-y: hidden;
-}
-
 .btnBrgr {
   position: relative;
   display: -webkit-box;
@@ -16450,6 +16446,10 @@ div ::-webkit-scrollbar-track {
 div ::-webkit-scrollbar-thumb {
   background: #516DFF;
   border-radius: 5px;
+}
+
+body.stuck {
+  overflow-y: hidden;
 }
 
 .main-foter {
@@ -16586,13 +16586,6 @@ div ::-webkit-scrollbar-thumb {
   top: 0;
 }
 
-body {
-  font-family: "Montserrat-Regular";
-  overflow-x: hidden;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .nav-main {
   padding: 30px 0;
 }
@@ -16636,7 +16629,7 @@ body {
   left: 15%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 1em solid black;
+  border: 1em solid #1C1C1C;
   border-color: transparent transparent #ffff #ffff;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
@@ -16867,6 +16860,13 @@ body {
 .nav-main__form .lang-box.drop:after {
   right: 15px !important;
   top: 33%;
+}
+
+body {
+  font-family: "Montserrat-Regular";
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .slider-element {

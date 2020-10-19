@@ -3,12 +3,9 @@
         font-size: 20px;
     }
     .news--rightSide {
-        // flex-wrap: wrap;
-        // flex-direction: row;
+    
         margin-top: 50px;
-        // .side-news {
-        //     width: 50%;
-        // }
+       
         .social-buttons {
             width: 100%;
             justify-content: center;
@@ -282,14 +279,12 @@
     .main-title {
         &__header {
             font-size: 15px;
-            h3 {
-                // font-size: 28px !important;
-            }
+           
         }
     }
     .slider-element {
         &__title {
-            // top: 30% !important;
+            
             max-width: 23rem !important;
             width: 100%;
             h3 {
