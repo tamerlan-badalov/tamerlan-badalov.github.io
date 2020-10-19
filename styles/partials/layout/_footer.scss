@@ -1,0 +1,112 @@
+.main-foter{
+    padding:30px 0 0 0;
+    font-size:16px;
+    border-top:1px solid $outColor;
+}
+.up-footer {
+  
+    padding:0  0 30px 0;
+    &__logo {
+        display: flex;
+    }
+    &__social {
+        display: flex;
+        text-align: center;
+        margin: 50px 0;
+        span {
+            font-size: 1em;
+            font-weight: 700;
+            font-family: "Montserrat-Bold";
+        }
+        ul {
+            display: flex;
+            li {
+                margin: 0 15px;
+                i {
+                    font-size: 20px;
+                    width: 1.6em;
+                    text-align: center;
+                    line-height: 1.6em;
+                    // background: #666;
+                    border:1px solid $ActiveBlue;  
+                    color: $ActiveBlue;
+                    border-radius: 0.8em; 
+                    transition: 0.3s;
+                    &:hover{
+                        color:$white;
+                        background-color: $ActiveBlue;
+                    }
+                  }
+                a {
+                    text-decoration: none;
+                    color: $ActiveBlue;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    &__events {
+        // padding: 0 20px;
+        h4 {
+            font-weight: 700;
+            font-size:1em;
+            font-family: "Montserrat-Bold";
+            margin-bottom: 20px;
+        }
+        li {
+            margin: 10px 0;
+           
+            a {
+                text-decoration: none;
+                font-size: 1em;
+                font-weight: 500;
+                color: $black;
+            }
+            a:hover{
+                color:$ActiveBlue;
+                text-decoration: underline;
+            }
+        }
+    }
+    &__title {
+        flex-grow: 5;
+        span {
+            font-size: 16px;
+            font-weight: 500;
+            color: $black;
+        }
+    }
+    &__img {
+        flex-grow: 5;
+
+        img {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.bottom-footer {
+    background-color: $black;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    span{
+        color:#ffff;
+        font-weight: 500;
+        font-size: 0.75em;
+    }
+}
+.brd {
+    &:after {
+        content: "";
+        height: 80%;
+        width: 2px;
+        color: $outColor;
+        background-color: $outColor;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
