@@ -15941,7 +15941,7 @@ p {
 
 @media (max-width: 1199px) {
   .main-title__header {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .news--rightSide {
     margin-top: 50px;
@@ -16096,7 +16096,7 @@ p {
 
 @media (max-width: 1002px) {
   .main-title__header {
-    font-size: 20px;
+    font-size: 18px !important;
   }
   .section-event-slider .slick-dots {
     bottom: -50px !important;
@@ -16213,7 +16213,7 @@ p {
     padding: 12px 16px !important;
   }
   .main-title__header {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   .slider-element__title {
     max-width: 23rem !important;
@@ -16230,7 +16230,7 @@ p {
 
 @media (max-width: 399px) {
   .main-title__header {
-    font-size: 11px;
+    font-size: 11px !important;
   }
   .section-titles .main-title__header h3 {
     font-size: 21px;
@@ -16958,6 +16958,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 0 25px 0;
+  font-size: 22px;
 }
 
 .main-title__header h3 {

@@ -1,6 +1,8 @@
 @media (max-width: 1199px) {
-    .main-title__header{
-        font-size: 20px;
+    .main-title{
+        &__header{
+            font-size: 20px !important;
+        }
     }
     .news--rightSide {
     
@@ -150,8 +152,10 @@
     }
 }
 @media (max-width: 1002px) {
-    .main-title__header{
-        font-size: 20px;
+    .main-title{
+        &__header{
+            font-size: 18px !important;
+        }
     }
     .section-event-slider {
         .slick-dots {
@@ -278,7 +282,7 @@
 
     .main-title {
         &__header {
-            font-size: 15px;
+            font-size: 15px !important;
            
         }
     }
@@ -298,8 +302,10 @@
     }
 }
 @media (max-width: 399px) {
-    .main-title__header{
-        font-size: 11px;
+    .main-title{
+        &__header{
+            font-size: 11px !important;
+        }
     }
     .section-titles{
         .main-title{
